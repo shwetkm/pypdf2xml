@@ -9,7 +9,7 @@ setup(name='pypdf2xml',
       url='https://github.com/zejn/pypdf2xml',
       scripts=['pdf2xml', 'pdfxml2csv', 'headerfilter'],
       packages=['pypdf2xml'],
-      install_requires=['pdfminer==20140328', 'lxml'],
+      install_requires=['pdfminer.six==20140328', 'lxml'],
       classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
